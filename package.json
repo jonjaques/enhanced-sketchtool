@@ -1,0 +1,31 @@
+{
+  "name": "enhanced-sketchtool",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:jonjaques/enhanced-sketchtool.git",
+  "dependencies": {
+    "esm": "^3.0.84"
+  },
+  "bin": { "sketchtool": "bin/cli" },
+  "scripts": {
+    "cli": "./bin/cli",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1",
+    "standard": "^12.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "globals": [ "jest", "describe", "expect", "it", "require" ]
+  }
+}
