@@ -1,13 +1,15 @@
 {
   "name": "enhanced-sketchtool",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "repository": "git@github.com:jonjaques/enhanced-sketchtool.git",
   "dependencies": {
     "esm": "^3.0.84"
   },
-  "bin": { "sketchtool": "bin/cli" },
+  "bin": {
+    "sketchtool": "bin/cli"
+  },
   "scripts": {
     "cli": "./bin/cli",
     "test": "jest",
@@ -26,6 +28,12 @@
     "testEnvironment": "node"
   },
   "standard": {
-    "globals": [ "jest", "describe", "expect", "it", "require" ]
+    "globals": [
+      "jest",
+      "describe",
+      "expect",
+      "it",
+      "require"
+    ]
   }
 }
